@@ -1,0 +1,243 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+~
+	Docker, MySQL, PostgreSQL, SphinxDB, Solr, Redis, Mosquitto, Fluentd, Nginx, Apache, GIT, Ansible, HTML5, CSS3, Responsive Design...
+}
+
+% Programming skill bars
+\programming{{Python / 1},{Elixir $\textbullet$ Phoenix / 2},{Php / 3.5}, {Ruby on Rails / 5}}
+
+% Projects text
+\education{
+
+\textbf{1999}: DUT Informatique spécialité réseau
+
+\textbf{1997}: Bac S spécialité Math
+
+
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{JeanMary \\LECOUTEUX} % Your name
+
+\cvdate{17/10/1978}
+\cvjobtitle{ Developpeur \\Ruby on Rails senior } % Job
+% title/career
+\cvaddress{ Nogent sur Marne (94130) }
+\cvlinkedin{/in/jmlecouteux}
+\cvgithub{maxxfly}
+\cvnumberphone{06 15 31 60 78} % Phone number
+\cvsite{www.jeanmary.com} % Personal website
+\cvmail{jeanmary@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\large
+
+\begin{twenty} % Environment for a list with descriptions
+\twentyitem
+    	{Juill. 2016 - }
+		{Present}
+        {Unowhy}
+        {}
+        {Société concevant des tablettes destinées pour les élèves et professeurs. Elle propose aussi des solutions logicielles pour le pilotage de ces tablettes. L'objectif est de proposer aux élèves un cartable numérique}
+        {\begin{itemize}
+        \item Maintenance de l'API pour la communication de la tablette des étudiants, de l'application cliente pour les professeurs et du back office en Ruby on Rails
+        \item Mise en place d'une nouvelle solution suite a la réforme du BAC en microapp, déployé sous Kubernetes
+        \item Développement en Ruby on Rails, Sinatra, Elixir/ Phoenix, Python...
+        \item Documentation de l'API sous Swagger/ OpenAPI
+        \item BDD/ TDD (RSpec/ Capybara)
+        \item Agile/ Scrum
+        
+        \end{itemize}}
+        \\
+\end{twenty}
+
+\begin{twenty}
+	\twentyitem
+    	{Juill. 2015 - }
+		{Juill. 2016}
+        {Groupe l'Argus}
+        {}
+        {Projet pour le groupe l'Argus permettant de centraliser le référentiel automobile et cotation dans une API}
+        {
+        {\begin{itemize}
+        \item Création d'une API RESTFul
+        \item Documentation de l'API sous Swagger
+        \item Hébergement chez Heroku
+        \item BDD/ TDD (Rspec/ Cucumber) 
+        \item Agile/ Scrum
+
+    \end{itemize}}
+        }
+    \\   
+
+\end{twenty}
+
+\begin{twenty}
+
+    \twentyitem
+   		{Janv. 2015 - }
+		{Juin 2015}
+        {Lunettes pour tous}
+        {}
+        {Chaine de magasins d'optiques proposant des lunettes à bas prix en quelques minutes de fabrication}
+        {
+        {\begin{itemize}
+        \item Développement d'applications en Ruby on Rails, EventMachine et Php
+        \item Hébergement chez Heroku
+        \item Utilisation de Raspberry Pi dans divers solutions
+        \item Agile/ Scrum
+
+
+    \end{itemize}}
+        }
+     \\
+
+\end{twenty}
+
+\begin{twenty}
+
+     \twentyitem
+   		{Aout 2014 - }
+		{Déc. 2014}
+        {Semio Design}
+        {}
+        {Agence web spécialisée dans le marché du luxe}
+        {
+        \begin{itemize}
+        \item Développement en Ruby on Rails
+        \item Développement d'applications mobiles sous Titanium SDK et PhoneGap
+        \item Hébergement chez Heroku
+    \end{itemize}
+    	}
+
+\end{twenty}
+
+\begin{twenty}
+
+     \\   
+    \twentyitem
+   		{Avril 2013 - }
+		{Juill. 2014}
+        {Moxity}
+        {}
+        {Solution de billetterie proposant aux organisateurs d'évènements solutions de vente de billets - vente, impression et scannage des billets sur le lieu de l'évènement}
+        {
+        {\begin{itemize}
+        \item Développement sous Ruby on Rails 2.x
+        \item Fork de l'ancienne application pour un client spécifique en Rails 4.x
+        \item Création d'une application mobile sous Titanium SDK
+
+
+    \end{itemize}}
+        }
+
+\end{twenty}
+
+\begin{twenty}
+    
+     \\   
+    \twentyitem
+   		{Avril 2006 - }
+		{Avril 2013}
+        {Ligos - pointscommuns.com}
+        {}
+        {Site de rencontre basés sur l'affinité culturelle. La société completait ses activités en proposant des services d'agence web}
+        {
+        {\begin{itemize}
+        \item CTO
+        \item Développement en Php, Ruby on Rails, JS, CSS3, JQuery, HTML5
+        \item Ajout de nouvelles fonctionnalitées, optimisations, ajout d'une solution de paiement sur le site pointscommuns.com
+        \item SEO
+
+
+    \end{itemize}}
+        }
+        
+\end{twenty}
+
+\begin{twenty}        
+    
+     \\   
+    \twentyitem
+   		{Juin 2001 - }
+		{Juin 2005}
+        {Carpediem}
+        {}
+        {Sponsor accompgnant les webmasters de l'adult business}
+        {
+        {\begin{itemize}
+        \item Développement en Perl, Php, JS, CSS
+        \item Optimisation de la solution de tracking des affiliés
+        \item Mise en place de solutions marketing destinées aux webmasters
+        \item Création d'un VOD en marque blanche
+
+    \end{itemize}}
+        }
+
+\end{twenty}
+
+\begin{twenty}
+       
+    \\   
+    \twentyitem
+   		{Sept. 1999 - }
+		{Juin 2001}
+        {404 Found!}
+        {}
+        {Agence Web - Développement de sites évènementiels}
+        {
+        {\begin{itemize}
+        \item Développement en Perl, PHP, JS, CSS
+        \end{itemize}}
+        }
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+
+\section{Loisir}
+Jeux vidéo, photographie, musique, domotique, cinéma
+
+\section{Langues parlées}
+\begin{itemize}
+\item Anglais : Lu, parlé
+\end{itemize}
+
+
+\end{document} 
